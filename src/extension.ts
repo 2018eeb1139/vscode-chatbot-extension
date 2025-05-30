@@ -55,8 +55,5 @@ export function activate(context: vscode.ExtensionContext) {
   );
 
   // add icon to participant
-  tutor.iconPath = vscode.Uri.joinPath(
-    context.extensionUri,
-    "../images/icon.svg"
-  );
+  tutor.iconPath = vscode.Uri.joinPath(context.extensionUri, "images/icon.png");
 }

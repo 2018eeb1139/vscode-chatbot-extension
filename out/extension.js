@@ -69,6 +69,6 @@ function activate(context) {
     // create participant
     const tutor = vscode.chat.createChatParticipant("chat-tutorial.code-tutor", handler);
     // add icon to participant
-    tutor.iconPath = vscode.Uri.joinPath(context.extensionUri, "../images/icon.svg");
+    tutor.iconPath = vscode.Uri.joinPath(context.extensionUri, "images/icon.png");
 }
 //# sourceMappingURL=extension.js.map
